@@ -4,8 +4,10 @@
 
 <p>I built this portfolio with Next.js and Tailwind CSS to highlight my projects, skills, and design approach. My goal was to create a clean, modern, and interactive space that makes it easy for clients and recruiters to see what I can bring to their team.</p>
 
+<a href="https://mikromilboy.vercel.app">live portfolio</a>
 
-## <a name="tech-stack">⚙️ Used Tech Stack For Builing Portfolio</a>
+
+## ⚙️ Used Tech Stack For Builing Portfolio
 
 - Next.js
 - Three.js
@@ -13,9 +15,7 @@
 - Tailwind CSS
 - Aceternity UI
 
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
+## If You Want To Set Up The Project Locally On Your Machine, Please Follow These Steps
 
 **Prerequisites**
 
@@ -46,4 +46,4 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project or you can see the online live version from [mirkomilboy.com](https://mirkomilboy.vercel.app)
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
