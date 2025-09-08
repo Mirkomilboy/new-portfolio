@@ -4,7 +4,7 @@
 
 <p>I built this portfolio with Next.js and Tailwind CSS to highlight my projects, skills, and design approach. My goal was to create a clean, modern, and interactive space that makes it easy for clients and recruiters to see what I can bring to their team.</p>
 
-<a href="https://mikromilboy.vercel.app">live portfolio</a>
+<p>You can visit <a href="https://mikromilboy.vercel.app">Live Portfolio</a></p>
 
 
 ## ⚙️ Used Tech Stack For Builing Portfolio
