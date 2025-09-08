@@ -2,8 +2,7 @@
   <h3 align="center">Welcome To My Portfolio Github Repository</h3>
 </div>
 
-
-## <p align="center">I built this portfolio with Next.js and Tailwind CSS to highlight my projects, skills, and design approach. My goal was to create a clean, modern, and interactive space that makes it easy for clients and recruiters to see what I can bring to their team.</p>
+<p align="center">I built this portfolio with Next.js and Tailwind CSS to highlight my projects, skills, and design approach. My goal was to create a clean, modern, and interactive space that makes it easy for clients and recruiters to see what I can bring to their team.</p>
 
 
 ## <a name="tech-stack">⚙️ Used Tech Stack For Builing Portfolio</a>
