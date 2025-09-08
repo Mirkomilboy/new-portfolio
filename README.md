@@ -10,6 +10,7 @@
 ## ⚙️ Used Tech Stack For Builing Portfolio
 
 - Next.js
+- TypeScript
 - Three.js
 - Framer Motion
 - Tailwind CSS
