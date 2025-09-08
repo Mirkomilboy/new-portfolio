@@ -46,4 +46,4 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project or you can see the online live version from [mirkomilboy.com](mirkomilboy.vercel.app)
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project or you can see the online live version from [mirkomilboy.com](https://mirkomilboy.vercel.app)
