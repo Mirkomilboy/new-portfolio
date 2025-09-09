@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Compatible with all modern browsers, fully responsive, SEO optimized and your satisfaction are all guaranteed.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -72,9 +72,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Highlight Hero - Business Automation App",
+    des: "Interactive Next.js application",
+    img: "/highlight-hero.png",
     iconLists: [
       {
         id: 1,
@@ -94,26 +94,20 @@ export const projects = [
         designation: "JS With Syntax For Types",
         image: "/ts.svg",
       },
-      {
-        id: 4,
-        name: "ThreeJS",
-        designation: "3D Graphics Library",
-        image: "/three.svg",
-      },
     ],
-    link: "/ui.earth.com",
+    link: "https://highlight-hero.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Eagerworks",
+    des: "Website of IT company based in Uruguay",
+    img: "/eagerworks.png",
     iconLists: [
       {
         id: 1,
-        name: "ReactJS",
-        designation: "Javascript Library",
-        image: "/re.svg",
+        name: "HTML5",
+        designation: "Markup Language",
+        image: "/html5.png",
       },
       {
         id: 2,
@@ -123,30 +117,24 @@ export const projects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        designation: "JS With Syntax For Types",
-        image: "/ts.svg",
-      },
-      {
-        id: 4,
-        name: "ThreeJS",
-        designation: "3D Graphics Library",
-        image: "/three.svg",
+        name: "Motion Design",
+        designation: "Animation Library",
+        image: "/framer-motion.png",
       },
     ],
-    link: "/ui.yoom.com",
+    link: "https://eagerworks-front.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "EduLearn",
+    des: "Online learning platform",
+    img: "/edu-learn.png",
     iconLists: [
       {
         id: 1,
-        name: "ReactJS",
-        designation: "Javascript Library",
-        image: "/re.svg",
+        name: "HTML5",
+        designation: "Markup Language",
+        image: "/html5.png",
       },
       {
         id: 2,
@@ -154,26 +142,14 @@ export const projects = [
         designation: "CSS Framework",
         image: "/tail.svg",
       },
-      {
-        id: 3,
-        name: "TypeScript",
-        designation: "JS With Syntax For Types",
-        image: "/ts.svg",
-      },
-      {
-        id: 4,
-        name: "ThreeJS",
-        designation: "3D Graphics Library",
-        image: "/three.svg",
-      },
     ],
-    link: "/ui.aiimg.com",
+    link: "https://edulearn-me.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Gravity Technologies",
+    des: "Website of IT company based in Switzerland",
+    img: "/gravity.png",
     iconLists: [
       {
         id: 1,
@@ -187,115 +163,214 @@ export const projects = [
         designation: "CSS Framework",
         image: "/tail.svg",
       },
+    ],
+    link: "https://gravity-ten.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "La Belle",
+    des: "Website of a beauty products store",
+    img: "/la-belle.png",
+    iconLists: [
       {
-        id: 3,
-        name: "TypeScript",
-        designation: "JS With Syntax For Types",
-        image: "/ts.svg",
+        id: 1,
+        name: "HTML5",
+        designation: "Markup Language",
+        image: "/html5.png",
       },
       {
-        id: 4,
-        name: "ThreeJS",
-        designation: "3D Graphics Library",
-        image: "/three.svg",
+        id: 2,
+        name: "TailwindCSS",
+        designation: "CSS Framework",
+        image: "/tail.svg",
       },
     ],
-    link: "/ui.apple.com",
+    link: "https://la-belle-me.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "IQS University",
+    des: "Website of a university based in Spain",
+    img: "/iqs-university.png",
+    iconLists: [
+      {
+        id: 1,
+        name: "HTML5",
+        designation: "Markup Language",
+        image: "/html5.png",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        designation: "CSS Framework",
+        image: "/tail.svg",
+      },
+    ],
+    link: "https://iqs-me.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Absolute great seller. He managed to develop everything up to my expectations and even exceeded them. I'm more than satisfied and his work is a work of quality. Would absolutely recommend, great job! Was a pleasure to communicate.",
+    name: "Masternoah",
+    title: "from Germany",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Perfect delivery, exactly what I asked for and in a very good time. recommended",
+    name: "Ricardojaa",
+    title: "From Germany",
+  },
+  {
+    quote: "Great work very quick and excellent quality",
+    name: "Marcoruggeri",
+    title: "From UK",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Fast delivery. Really happy with the results and the communication.",
+    name: "Sercanto",
+    title: "From France",
+  },
+  {
+    quote: "Easy communication, great turnaround!",
+    name: "Jelkaim",
+    title: "From USA",
+  },
+  {
+    quote: "Great work and great value!",
+    name: "Jridyard",
+    title: "From USA",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Very satisfied with the work. The tailwind markup delivered was high quality with very high attention to detail. I'll certainly be buying again.",
+    name: "Giorgenes",
+    title: "From Australia",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "His work was effective. He delivered fast. He communicated well on the steps. The delivery is exactly what was expected.",
+    name: "Hadrienblanc",
+    title: "From France",
+  },
+  {
+    quote:
+      "He knew exactly what I wanted and was very flexible if I had things that I wanted changed. Would recommend!",
+    name: "Slideshowbob",
+    title: "From Netherlands",
+  },
+  {
+    quote:
+      "Seller assisted in the migration of a legacy static site with broken and outdated CSS from Tailwind v2 to v3. Delivery was timely. Project was delivered both as a zip and later as a pull request in GitHub. This allowed our team to quickly review exactly what changed a make a few minor tweaks before merging into our main branch a few hours later. This is our second project with mirkomilboy and we're already planning to utilize him for our next project.",
+    name: "Lebrauncom",
+    title: "From USA",
+  },
+  {
+    quote:
+      "Mirko asked the right question and it felt like he understood in one time all i needed. He made me comfortable about the delivery and the communication for the feedbacks and iteration was great. Great job. Thank you very much. Very effective and skilled. Would highly recommend :)",
+    name: "Louisl917",
+    title: "From France",
+  },
+  {
+    quote:
+      "Mirkomilboy converted a website from plain html and css to tailwind css. Very accurate results, quick delivery, simple communication. I will hire him again for more projects!",
+    name: "Felix_elevator",
+    title: "From Germany",
+  },
+  {
+    quote:
+      "I am very happy with his responsiveness and quality of the final product. I will likely want to buy from again. The product was delivered earlier than our agreed to date/time.",
+    name: "Michealslatt148",
+    title: "From USA",
+  },
+  {
+    quote:
+      "Seller made a pixel perfect responsive vue+tailwind css page from a design. Very fast and very happy with results, will definitely come back to buy more!",
+    name: "Acosta_32",
+    title: "From Portugal",
+  },
+  {
+    quote:
+      "Super fast and really took his time to get the project done right. We kept fine tuning until we were completely happy with the results, and I appreciate that in any freelancer (it's a rare thing to find) Great experience :)",
+    name: "Rdocreyz",
+    title: "From USA",
+  },
+  {
+    quote:
+      "He is very friendly, skilled, fast, and he will take his time understanding your needs, applying fixes and give revisions. im really really happy working with Mirkomilboy!",
+    name: "Ryuzeke",
+    title: "From Greece",
+  },
+  {
+    quote:
+      "It was very good working with this seller. Good work ethic, I would recommend him to anyone trying to get a figma to a website as fast as possible. Really clean code too. Will definitely order again.",
+    name: "Nathanmillner",
+    title: "From USA",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Fiverr",
+    img: "/fiverr-logo.svg",
+    nameImg: "/fiverr-logo.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Upwork",
+    img: "/upwork-logo.svg",
+    nameImg: "/upwork-logo.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Eagerworks",
+    img: "/eagerworks-logo.svg",
+    nameImg: "/eagerworks-logo.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "IQS University",
+    img: "/iqs-logo.svg",
+    nameImg: "/iqs-logo.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Gravity Technologies",
+    img: "/gravity-logo.jpg",
+    nameImg: "/gravity-logo.jpg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer at Fiverr and Upwork",
+    desc: "I'm a frontend engineer at Fiverr and Upwork, where I work on the frontend of the platform.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Engineer assistant at Japanese IT company",
+    desc: "I'm a engineer assistant at a Japanese IT company, where I help to implement new features, fix bugs and test the code.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Member of the team Utrujjah",
+    desc: "Utrujjah has five members in total, we are a team of developers that work on a project together.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Co-founder of several startups",
+    desc: "Actively working together with a team to build Ajeeb, Safeer and Darmn. My role is to build the frontend of the product.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -304,14 +379,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
+    url: "https://github.com/mirkomilboy",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/telegram.svg",
+    url: "https://t.me/mirkomilboy_sadirov",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/linkedin.svg",
+    url: "https://www.linkedin.com/in/mirkomilboy-sadirov/",
   },
 ];

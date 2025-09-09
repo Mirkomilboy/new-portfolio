@@ -3,7 +3,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
-import { PinContainer } from "./ui/Pin";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,14 +15,14 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="max-w-6xl mx-auto grid grid-cols-2 p-4 gap-16 mt-10">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center"
+            className="flex items-center justify-center"
             key={item.id}
           >
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+              <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -57,7 +56,7 @@ const RecentProjects = () => {
                   <CardItem
                     translateZ={20}
                     as={Link}
-                    href="https://twitter.com/mannupaaji"
+                    href={item.link}
                     target="__blank"
                     className="flex justify-center items-center"
                   >

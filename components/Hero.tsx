@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-64">
+    <div className="pb-20 pt-40">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -29,7 +29,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative md:my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Welcome to my portfolio
@@ -44,9 +44,9 @@ const Hero = () => {
             Hi! I&apos;m Mirkomilboy, a Next.js Developer based in Uzbekistan.
           </p>
 
-          <a href="#projects">
+          <a href="/cv.pdf" target="_blank">
             <MagicButton
-              title="See my work"
+              title="Checkout my CV"
               icon={<FaLocationArrow />}
               position="right"
             />
