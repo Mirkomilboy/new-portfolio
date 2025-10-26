@@ -107,7 +107,7 @@ export const projects = [
         image: "/tech-logos/vapi.png",
       },
     ],
-    link: "https://highlight-hero.vercel.app/",
+    link: "https://smiledent.vercel.app/",
   },
   {
     id: 1,
