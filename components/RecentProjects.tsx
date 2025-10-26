@@ -7,6 +7,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import MagicButton from "./MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -15,7 +16,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 p-4 gap-16 mt-10">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 p-4 gap-10 mt-10">
         {projects.map((item) => (
           <div
             className="flex items-center justify-center"
@@ -70,6 +71,16 @@ const RecentProjects = () => {
             </CardContainer>
           </div>
         ))}
+      </div>
+
+      <div className="flex justify-center">
+        <a href="https://github.com/mirkomilboy" target="_blank">
+          <MagicButton
+            title="See Other Projects"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
     </div>
   );
