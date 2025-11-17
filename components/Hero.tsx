@@ -44,7 +44,7 @@ const Hero = () => {
             Hi! I&apos;m Mirkomilboy, a Next.js Developer based in Uzbekistan.
           </p>
 
-          <a href="/cv.pdf" target="_blank">
+          <a href="/cv-v3.pdf" target="_blank">
             <MagicButton
               title="Checkout my CV"
               icon={<FaLocationArrow />}
