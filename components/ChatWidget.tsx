@@ -51,22 +51,34 @@ const ChatWidget = () => {
   }, []);
 
   return (
-    <iframe
-      src={WIDGET_LAUNCHER_SRC}
+    <div
       style={{
         position: "fixed",
-        bottom: 0,
-        right: 0,
-        width: "100px",
-        height: "100px",
-        border: "none",
-        background: "transparent",
+        bottom: 24,
+        right: 24,
+        width: 80,
+        height: 80,
         zIndex: 9999,
+        borderRadius: "50%",
+        overflow: "hidden",
+        backgroundColor: "transparent",
+        pointerEvents: "auto",
       }}
-      frameBorder="0"
-      allow="microphone;camera"
-      title="Swipies chat launcher"
-    />
+      aria-label="Chat launcher"
+    >
+      <iframe
+        src={WIDGET_LAUNCHER_SRC}
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+          background: "transparent",
+        }}
+        frameBorder="0"
+        allow="microphone;camera;clipboard-read;clipboard-write"
+        title="Swipies chat launcher"
+      />
+    </div>
   );
 };
 
